@@ -2,3 +2,4 @@
 
 You are able to see me resume in this link:
 
+[https://paloga87.github.io/My-Resume/](https://paloga87.github.io/My-Resume/)
