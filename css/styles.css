@@ -5,13 +5,13 @@
     color: #3c3c3b;
 }
 body{
-    background: #e1c0b3;
-    background: linear-gradient(to bottom left, #e1c0b3 42%, #68bcc8 99%);
+    background: #f1f1f1;
+    /*background: linear-gradient(to bottom left, #e1c0b3 42%, #68bcc8 99%); */
     background-repeat: no-repeat;
     min-height: -webkit-fill-available;
 }
 .container{
-    width: 75%;
+    width: 90%;
     background: #fff;
     margin: 0 auto;
     margin-top: 100px;
@@ -62,8 +62,11 @@ h1{
 h2{
     font-size:29px;
 }
+li span, p span, .links a{
+    font-family: 'Loved by the King', cursive; 
+}
 p, li, a{
-    font-family: 'Loved by the King', cursive;
+    font-family: 'Open Sans Condensed', sans-serif;
     font-size: 20px;
     line-height: 28px;
     letter-spacing: 1px;
@@ -241,7 +244,8 @@ ul li::before {
     padding-top: 5px;
 }
 .contact{
-    margin-top: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 .redes {
     padding-top: 40px;
@@ -334,8 +338,8 @@ ol li{
 .git{
     background: #ed5629;
 }
-.joomla{
-    background: #7fc022;
+.angular{
+    background: #C3002F;
 }
 .ilustrator{
     background: #f27a00;
