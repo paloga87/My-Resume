@@ -85,6 +85,9 @@ span{
     color: #989898;
 }
 /*--Grids--*/
+.col-3{
+    width: 33%;
+}
 .col-4{
     width: 34.5%;
 }
@@ -94,7 +97,7 @@ span{
 .col-8{
     width: 65%;    
 }
-.col-4, .col-8, .col-6{
+.col-4, .col-8, .col-6, .col-3{
     float: left;
 }
 .center-b{
@@ -381,7 +384,7 @@ ol li{
         top: -110px;
         background-size:  contain;
     }
-    .col-4, .col-8 {
+    .col-4, .col-8,  .col-3 {
         width: 100%;
     }
     .lin-dd::before{
@@ -413,6 +416,28 @@ ol li{
         padding-top: 0px;
         padding-bottom: 20px;
     } 
+    .lan{
+        position: relative;
+        width: 100%;
+        text-align: right;
+        padding: 10px 0;
+        top: 0;
+        right: 0;
+    }
+    .picture .left{
+        padding-top: 0px;
+    }
+    .contact{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .tools ul{
+        padding: 0
+    }
+    .tools ul.first{
+        padding-top: 30px;
+    }
+    
 }
 @media (max-width: 500px){
     .container{
