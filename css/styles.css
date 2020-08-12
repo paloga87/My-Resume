@@ -229,7 +229,7 @@ ul li::before {
     left: 0;
 }
 .fix .container-fix{
-    width: 75%;
+  
     background: #fff;
     margin: 0 auto;
     padding: 30px;
