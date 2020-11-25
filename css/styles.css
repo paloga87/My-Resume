@@ -168,6 +168,9 @@ ul li::before {
     width: 10px;
     top: 5px
 }
+ul.responsabilities{
+    padding-left: 45px;
+}
 /*-------CONTENT------*/
 .lan{
     position: absolute;
