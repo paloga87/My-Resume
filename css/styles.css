@@ -73,6 +73,10 @@ p, li, a{
 .dark-bg{
     background: #292929;
 }
+.darker-bg{
+    background: #242424;
+    padding: 74px 60px 90px;
+}
 .purple-f, p span{
     color: #db6eff;
     font-weight: 400;
@@ -94,12 +98,21 @@ p, li, a{
 }    
 /*--Spaces--*/
 .pad-50{
-    padding: 60px;
+    padding: 60px 60px 30px;
 }
 .pad-6{
-    padding: 30px 60px;
+    padding: 48px 60px 80px;
+    animation: 3s ease-in 1s 2 reverse both paused slidein;
 }
-
+/*--Buttons--*/
+button{
+    background: #af2cda !important;
+    padding: 10px 10px;
+    border: none;
+}
+button:hover{
+    text-decoration: underline ;
+}
 /*--Main Banner--*/
 .intro{
     z-index:2;
@@ -190,9 +203,20 @@ p, li, a{
 .fa-git-square:hover{
     color: #989898;
 }
+/*--Services--*/
+.services{
+    background: #313131;
+    padding: 13px;
+    margin-bottom: 10px
+}
+.serv-icon img {
+    width: 70px;
+    padding-bottom: 15px;
+}
+
 /*--work expeieance*/
 .work{
-    background: #353535;
+    background: #313131;
     padding: 10px;
     margin-bottom: 10px;
 }
@@ -201,35 +225,41 @@ p, li, a{
 }
 .clients, .clients a, .clients p{
     color: #8c8a8a;
-    font-size: 10px;
+    font-size: 12px;
     text-decoration: none;
     line-height: 19px;
+}
+.clients a {
+    color: #c2c2c2
 }
 .clients a:hover{
     color: #fff;
     cursor: pointer;
 }
-
 .clients{
     height: 257px;
     overflow: auto;
     padding-right: 5px;
 }
+.fav{
+    color: #e8bcf6 !important;
+    /* text-shadow: 0px 0px 3px #db6eff; */
+}
+.fav:hover{
+    color: #db6eff !important;
+}
 /* width */
 .clients::-webkit-scrollbar {
   width: 3px;
 }
-
 /* Track */
 .clients::-webkit-scrollbar-track {
   background: #a4a4a4;
 }
-
 /* Handle */
 .clients::-webkit-scrollbar-thumb {
   background: #747474;
 }
-
 /* Handle on hover */
 .clients::-webkit-scrollbar-thumb:hover {
   background: #555;
