@@ -10,6 +10,7 @@
     padding: 0;
     color: #fff;
     max-width: 100%;
+    text-shadow: 0px 0px 2px #000;
 }
 body{
     background: #3e3e3e;    
@@ -74,6 +75,7 @@ p, li, a{
     background: #292929;
 }
 .darker-bg{
+    border: 1px solid #1a1919;
     background: #242424;
     padding: 74px 60px 90px;
 }
@@ -82,16 +84,19 @@ p, li, a{
     font-weight: 400;
 }
 .purple-btn{
+    border: 2px solid #8c30ab;
     background: #af2cda;
     width: auto;
     display: inline-flex;
-    padding: 4px 15px;
+    padding: 6px 17px;
     border-radius: 3px;
     margin-bottom: 30px;
     font-size: 16px;
 }
 .shadow{
     box-shadow: 0px 0px 14px 10px #af2cda29 !important;
+    border: 2px solid #242424;
+    border-radius: 10px;
 }
 .grey-f{
     color: #8c8a8a;
@@ -108,7 +113,8 @@ p, li, a{
 button{
     background: #af2cda !important;
     padding: 10px 10px;
-    border: none;
+    border: 2px solid #692281;
+    border-radius: 8px;
 }
 button:hover{
     text-decoration: underline ;
@@ -119,14 +125,14 @@ button:hover{
     padding-top: 48px;
 }
 .myrole {
-    margin-bottom: 20px;
+    margin-bottom: 43px;
 }
 .myrole h3{
    font-size: 14px;
    margin-bottom: 0;
 }
 .name{
-    margin-top: 20px;
+    margin-top: 0px;
     font-size: 102px;
     margin-left: -10px;
 }
@@ -136,13 +142,14 @@ button:hover{
     margin-bottom: 20px
 }
 .role{
-    padding-top: 25px;
+    padding-top: 6px;
     font-size: 23px;
     color: #adadad;
 }
 .cta{
     text-decoration: underline;
     padding-top: 30px;
+    /* padding-bottom: 30px; */
 }
 .cta a{
     font-size: 17px;
@@ -170,6 +177,7 @@ button:hover{
 .profile-pic{
     opacity: 0.6;
     overflow: hidden;
+    border-top-right-radius: 10px;
 }
 
 .fab, .fa-brands, .fa-regular, .fa-solid{
@@ -206,8 +214,10 @@ button:hover{
 /*--Services--*/
 .services{
     background: #313131;
-    padding: 13px;
-    margin-bottom: 10px
+    padding: 18px;
+    margin-bottom: 10px;
+    border: 1px solid #161616;
+    border-radius: 10px;
 }
 .serv-icon img {
     width: 70px;
@@ -219,6 +229,8 @@ button:hover{
     background: #313131;
     padding: 10px;
     margin-bottom: 10px;
+    border: 1px solid #161616;
+    border-radius: 10px;
 }
 .work p{
     margin-bottom: 5px;
@@ -240,6 +252,9 @@ button:hover{
     height: 257px;
     overflow: auto;
     padding-right: 5px;
+    border: 1px solid #1a1a1a;
+    padding: 4px;
+    border-radius: 10px;
 }
 .fav{
     color: #e8bcf6 !important;
@@ -285,6 +300,7 @@ button:hover{
     .last-name{
         font-size: 25px;
         line-height: 28px;
+        margin-bottom: 0px;
     }
     .role{
         padding-top: 20px;
@@ -324,5 +340,11 @@ button:hover{
     .projects{
         padding-top: 70px;
         padding-bottom: 30px
+    }
+    .profile-pic {
+    border-top-right-radius: 0px;
+    }
+    .pic{
+        margin-top: 21px;
     }
 }
